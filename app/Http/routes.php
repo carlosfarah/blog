@@ -16,5 +16,6 @@
 //});
 
 Route::get('ola/{nome}', 'TestController@index');
-
 Route::get('/', 'BlogController@index');
+
+Route::get('blog', 'PostsController@index');
